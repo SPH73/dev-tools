@@ -1,0 +1,38 @@
+{
+  "name": "table-formatter",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI tool for converting Markdown tables into A4-safe, fixed-width ASCII tables with auto-detection and word wrapping.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "format-tables": "./scripts/formatDoc.js"
+  },
+  "exports": {
+    "./format": "./utils/formatAsciiTable.js",
+    "./auto": "./utils/autoFormatTables.js",
+    "./markdown": "./utils/markdownToAsciiTable.js"
+  },
+  "files": [
+    "scripts",
+    "utils",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "markdown",
+    "table",
+    "ascii",
+    "formatter",
+    "cli",
+    "a4",
+    "word-wrap",
+    "monospace"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "prepublishOnly": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
