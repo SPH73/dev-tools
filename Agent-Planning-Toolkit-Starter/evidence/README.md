@@ -6,7 +6,7 @@ Capture proof while the work is happening so social proof costs time only once.
 
 Primary audience for these case studies:
 
-- non-techy savvy founders
+- non-coding but commercially savvy founders
 
 ## Why this works
 
@@ -26,5 +26,5 @@ Primary audience for these case studies:
 ## Files in this folder
 
 - `case-study-template.md`
-- `buyer-profile-non-techy-savvy-founders.md`
+- `buyer-profile-non-coding-commercially-savvy-founders.md`
 - `sample-case-study-idea-to-execution-plan.md`

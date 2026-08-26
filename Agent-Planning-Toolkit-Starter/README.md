@@ -17,6 +17,7 @@ This toolkit helps you run planning work with consistent inputs, explicit contra
 ```text
 Agent-Planning-Toolkit-Starter/
   README.md
+  MISSION.md
   LICENSE
   CONTRIBUTING.md
   ROADMAP.md
@@ -33,7 +34,7 @@ Agent-Planning-Toolkit-Starter/
   evidence/
     README.md
     case-study-template.md
-    buyer-profile-non-techy-savvy-founders.md
+    buyer-profile-non-coding-commercially-savvy-founders.md
     sample-case-study-idea-to-execution-plan.md
   docs/
     publish-in-dev-tools.md
@@ -54,6 +55,7 @@ Agent-Planning-Toolkit-Starter/
 - Publishing updates in this monorepo: `docs/publish-in-dev-tools.md`
 - First public launch copy: `docs/first-public-announcement.md`
 - Evidence capture loop: `evidence/README.md`
+- Mission statement: `MISSION.md`
 
 ## Gating discipline
 

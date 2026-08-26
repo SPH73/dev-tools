@@ -1,4 +1,4 @@
-# Buyer Profile: Non-Techy Savvy Founders
+# Buyer Profile: Non-Coding but Commercially Savvy Founders
 
 ## Snapshot
 

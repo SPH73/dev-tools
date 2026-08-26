@@ -2,7 +2,7 @@
 
 ## Starting point
 
-A non-techy savvy founder had a product idea and budget, but no clear sequence for what to build first.
+A non-coding but commercially savvy founder had a product idea and budget, but no clear sequence for what to build first.
 
 ## Intent
 
