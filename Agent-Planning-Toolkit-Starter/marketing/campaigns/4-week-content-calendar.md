@@ -22,12 +22,12 @@ CTA: Reply `PLAN` for repo link.
 
 ### Week 1 X (2)
 
-Post 1: concise positioning statement + who this is for.  
+Post 1: concise positioning statement + who this is for.
 Post 2: one proof snippet from `PORTFOLIO-EVIDENCE.md`.
 
 ### Week 1 YouTube Short (1)
 
-Title: From idea to shipped proof in public  
+Title: From idea to shipped proof in public
 Hook: "I stopped pitching AI and started shipping evidence."
 
 ## Week 2: Show the proof system
@@ -40,12 +40,12 @@ CTA: Comment `PROOF` for index link.
 
 ### Week 2 X (2)
 
-Post 1: one claim from the evidence index.  
+Post 1: one claim from the evidence index.
 Post 2: one governance artefact and why it reduces risk.
 
 ### Week 2 YouTube Short (1)
 
-Title: How to screen my portfolio in 3 minutes  
+Title: How to screen my portfolio in 3 minutes
 Hook: "No promises, only receipts."
 
 ## Week 3: Audience-specific value
@@ -58,12 +58,12 @@ CTA: Reply `CLARITY` for planning session format.
 
 ### Week 3 X (2)
 
-Post 1: pain-to-outcome mini thread.  
+Post 1: pain-to-outcome mini thread.
 Post 2: one user story from `marketing/user-stories.md`.
 
 ### Week 3 YouTube Short (1)
 
-Title: You do not need to become an AI tools expert  
+Title: You do not need to become an AI tools expert
 Hook: "You need a sequence you can trust."
 
 ## Week 4: Campaign and conversion
@@ -76,12 +76,12 @@ CTA: Reply `SPRINT` for scope and next step.
 
 ### Week 4 X (2)
 
-Post 1: checklist of planning sprint deliverables.  
+Post 1: checklist of planning sprint deliverables.
 Post 2: invite for discovery call with one qualification question.
 
 ### Week 4 YouTube Short (1)
 
-Title: Standardised scaffold, bespoke outcomes  
+Title: Standardised scaffold, bespoke outcomes
 Hook: "This is how we keep speed, quality, and margin."
 
 ## Weekly review checklist

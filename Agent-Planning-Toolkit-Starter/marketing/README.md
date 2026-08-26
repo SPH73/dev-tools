@@ -16,10 +16,15 @@ This folder defines the audience strategy for campaign work without exposing pri
 - `expert-role-campaign-strategist.md`
 - `model-selection-guide.md`
 - `agent-prompt-template.md`
+- `channel-defaults.md`
 - `campaigns/non-coding-founders-30-day-campaign.md`
 - `campaigns/non-coding-founders-linkedin-assets.md`
 - `campaigns/campaign-iteration-log-template.md`
 - `campaigns/4-week-content-calendar.md`
+- `campaigns/youtube-short-script-template.md`
+- `campaigns/linkedin-post-template.md`
+- `campaigns/x-post-derivation-template.md`
+- `campaigns/worked-example-youtube-to-linkedin-to-x.md`
 
 ## Working rule
 

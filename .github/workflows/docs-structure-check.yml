@@ -57,6 +57,7 @@ jobs:
           test -f Agent-Planning-Toolkit-Starter/MISSION.md
           test -f Agent-Planning-Toolkit-Starter/SCALING-PRINCIPLE.md
           test -f Agent-Planning-Toolkit-Starter/marketing/README.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/channel-defaults.md
           test -f Agent-Planning-Toolkit-Starter/marketing/buyer-profiles.md
           test -f Agent-Planning-Toolkit-Starter/marketing/user-stories.md
           test -f Agent-Planning-Toolkit-Starter/marketing/expert-role-campaign-strategist.md
@@ -66,6 +67,10 @@ jobs:
           test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/non-coding-founders-linkedin-assets.md
           test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/campaign-iteration-log-template.md
           test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/4-week-content-calendar.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/youtube-short-script-template.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/linkedin-post-template.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/x-post-derivation-template.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/worked-example-youtube-to-linkedin-to-x.md
           test -f Agent-Planning-Toolkit-Starter/evidence/README.md
           test -f Agent-Planning-Toolkit-Starter/evidence/case-study-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/buyer-profile-non-coding-commercially-savvy-founders.md

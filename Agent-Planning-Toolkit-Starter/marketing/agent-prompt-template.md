@@ -9,6 +9,7 @@ Objective:
 Build a campaign package for this segment: <segment name>.
 
 Inputs:
+- Channel defaults: `marketing/channel-defaults.md`
 - Buyer profile: <path or pasted content>
 - User stories: <path or pasted content>
 - Available proof artefacts: <paths>
@@ -28,7 +29,9 @@ Output requirements:
 3) Trust evidence mapping (proof -> claim)
 4) Message angles (5)
 5) Draft assets:
-   - one primary post/thread
+   - one YouTube short script
+   - one LinkedIn post
+   - three X variants (<=280 chars each, derived from YouTube core message)
    - two follow-up variants
    - one CTA block
 6) Measurement plan:

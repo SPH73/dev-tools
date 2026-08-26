@@ -34,6 +34,7 @@ Agent-Planning-Toolkit-Starter/
     operator-playbook.md
   marketing/
     README.md
+    channel-defaults.md
     buyer-profiles.md
     user-stories.md
     expert-role-campaign-strategist.md
@@ -44,6 +45,10 @@ Agent-Planning-Toolkit-Starter/
       non-coding-founders-linkedin-assets.md
       campaign-iteration-log-template.md
       4-week-content-calendar.md
+      youtube-short-script-template.md
+      linkedin-post-template.md
+      x-post-derivation-template.md
+      worked-example-youtube-to-linkedin-to-x.md
   evidence/
     README.md
     case-study-template.md
