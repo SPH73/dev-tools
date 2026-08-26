@@ -54,6 +54,12 @@ jobs:
           test -f Agent-Planning-Toolkit-Starter/docs/publish-in-dev-tools.md
           test -f Agent-Planning-Toolkit-Starter/docs/first-public-announcement.md
           test -f Agent-Planning-Toolkit-Starter/MISSION.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/README.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/buyer-profiles.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/user-stories.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/expert-role-campaign-strategist.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/model-selection-guide.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/agent-prompt-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/README.md
           test -f Agent-Planning-Toolkit-Starter/evidence/case-study-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/buyer-profile-non-coding-commercially-savvy-founders.md

@@ -31,6 +31,13 @@ Agent-Planning-Toolkit-Starter/
     sample-intake.csv
   playbooks/
     operator-playbook.md
+  marketing/
+    README.md
+    buyer-profiles.md
+    user-stories.md
+    expert-role-campaign-strategist.md
+    model-selection-guide.md
+    agent-prompt-template.md
   evidence/
     README.md
     case-study-template.md
@@ -56,6 +63,7 @@ Agent-Planning-Toolkit-Starter/
 - First public launch copy: `docs/first-public-announcement.md`
 - Evidence capture loop: `evidence/README.md`
 - Mission statement: `MISSION.md`
+- Campaign system: `marketing/README.md`
 
 ## Gating discipline
 
