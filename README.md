@@ -43,6 +43,7 @@ For starter kits, use the docs and templates directly from their folder.
 - Contribution flow: use the issue and PR templates in `.github/`
 - Ownership rules: [`.github/CODEOWNERS`](./.github/CODEOWNERS)
 - Dependency and Actions updates: [`.github/dependabot.yml`](./.github/dependabot.yml)
+- Release cadence: [`CHANGELOG.md`](./CHANGELOG.md), [`RELEASE-CHECKLIST.md`](./RELEASE-CHECKLIST.md)
 
 ---
 
