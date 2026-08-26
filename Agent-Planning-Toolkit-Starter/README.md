@@ -30,6 +30,11 @@ Agent-Planning-Toolkit-Starter/
     sample-intake.csv
   playbooks/
     operator-playbook.md
+  evidence/
+    README.md
+    case-study-template.md
+    buyer-profile-non-techy-savvy-founders.md
+    sample-case-study-idea-to-execution-plan.md
   docs/
     publish-in-dev-tools.md
     first-public-announcement.md
@@ -48,6 +53,7 @@ Agent-Planning-Toolkit-Starter/
 
 - Publishing updates in this monorepo: `docs/publish-in-dev-tools.md`
 - First public launch copy: `docs/first-public-announcement.md`
+- Evidence capture loop: `evidence/README.md`
 
 ## Gating discipline
 
