@@ -28,3 +28,5 @@ Primary audience for these case studies:
 - `case-study-template.md`
 - `buyer-profile-non-coding-commercially-savvy-founders.md`
 - `sample-case-study-idea-to-execution-plan.md`
+- `case-study-dev-tools-public-baseline.md`
+- `post-draft-case-study-dev-tools-public-baseline.md`

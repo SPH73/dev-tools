@@ -51,6 +51,8 @@ jobs:
           test -f Agent-Planning-Toolkit-Starter/evidence/case-study-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/buyer-profile-non-coding-commercially-savvy-founders.md
           test -f Agent-Planning-Toolkit-Starter/evidence/sample-case-study-idea-to-execution-plan.md
+          test -f Agent-Planning-Toolkit-Starter/evidence/case-study-dev-tools-public-baseline.md
+          test -f Agent-Planning-Toolkit-Starter/evidence/post-draft-case-study-dev-tools-public-baseline.md
 
       - name: Verify key README references
         run: |
