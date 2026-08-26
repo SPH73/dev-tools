@@ -6,9 +6,9 @@ A growing collection of small, focused developer tools and starter frameworks bu
 
 ## Tools
 
-| Tool | Description | Quick start |
-| ---- | ----------- | ----------- |
-| [table-formatter](./Table-Formatter) | Convert Markdown tables into A4-safe, fixed-width ASCII tables | `cd Table-Formatter && npm link` |
+| Tool                                                               | Description                                                                        | Quick start                                                    |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [table-formatter](./Table-Formatter)                               | Convert Markdown tables into A4-safe, fixed-width ASCII tables                     | `cd Table-Formatter && npm link`                               |
 | [agent-planning-toolkit-starter](./Agent-Planning-Toolkit-Starter) | Schema-first planning toolkit for AI-assisted delivery with gated output contracts | Open `README.md`, then start with `examples/sample-intake.csv` |
 
 ---
@@ -31,7 +31,7 @@ git clone git@github.com:SPH73/dev-tools.git
 cd dev-tools
 ```
 
-For CLI tools, run install/link commands from that tool's folder.  
+For CLI tools, run install/link commands from that tool's folder.
 For starter kits, use the docs and templates directly from their folder.
 
 ---
@@ -44,6 +44,9 @@ For starter kits, use the docs and templates directly from their folder.
 - Ownership rules: [`.github/CODEOWNERS`](./.github/CODEOWNERS)
 - Dependency and Actions updates: [`.github/dependabot.yml`](./.github/dependabot.yml)
 - Release cadence: [`CHANGELOG.md`](./CHANGELOG.md), [`RELEASE-CHECKLIST.md`](./RELEASE-CHECKLIST.md)
+- Contributor attribution standard: defined in [`REPO-STRUCTURE.md`](./REPO-STRUCTURE.md)
+- AI collaboration model: [`AI-COLLABORATION.md`](./AI-COLLABORATION.md)
+- Release provenance trail: [`provenance/`](./provenance/)
 
 ---
 

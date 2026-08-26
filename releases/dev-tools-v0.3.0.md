@@ -20,6 +20,11 @@ Date: 2026-08-26
 This release moves `dev-tools` from "useful projects" to "reliable public operating system".  
 The goal is sustainable trust: clear contribution boundaries, visible quality gates, and repeatable release discipline.
 
+## Collaboration model used
+
+This release was produced through AI-assisted collaboration with human-owned decision authority.  
+The repository now includes explicit attribution, governance, and provenance mechanisms so the collaboration method is inspectable by employers and contributors.
+
 ## Next
 
 - Add release discipline to every project subfolder.

@@ -18,6 +18,7 @@ Use this checklist before tagging and publishing a repo release.
 
 - [ ] Update `CHANGELOG.md` with a dated version section.
 - [ ] Write a release note in `releases/` describing what changed and why.
+- [ ] Add/update a provenance note in `provenance/` for this release.
 - [ ] Confirm naming and paths in release notes are correct.
 
 ## 4) Git steps

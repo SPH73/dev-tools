@@ -34,6 +34,20 @@ Project-specific additions:
 - CLI tools: runnable scripts + tests + package manifest
 - Toolkits: templates/contracts/examples/playbooks where applicable
 
+## Contributor Attribution Rule (Standing)
+
+If AI collaboration materially contributes to a project, the contribution must be explicitly attributed in that project's metadata.
+
+For package-based projects, this means:
+
+- add or update a `contributors` entry in `package.json`,
+- use clear naming for AI collaborator attribution,
+- keep attribution current as new collaborators contribute.
+
+Current baseline for this repo:
+
+- `Table-Formatter/package.json` includes `Codex (AI collaborator)` in `contributors`.
+
 ## Contribution and Governance
 
 - Use issue templates in `.github/ISSUE_TEMPLATE/`.
@@ -41,6 +55,7 @@ Project-specific additions:
 - Follow security reporting guidance in `.github/SECURITY.md`.
 - Ownership and review routing are defined in `.github/CODEOWNERS`.
 - Dependency and GitHub Actions update hygiene is managed by `.github/dependabot.yml`.
+- Track release-level collaboration evidence in `provenance/`.
 
 ## Scope Guard
 

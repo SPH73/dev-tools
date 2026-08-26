@@ -4,6 +4,12 @@
   "description": "Zero-dependency CLI tool for converting Markdown tables into A4-safe, fixed-width ASCII tables with auto-detection and word wrapping.",
   "type": "module",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Codex (AI collaborator)",
+      "url": "https://openai.com"
+    }
+  ],
   "bin": {
     "format-tables": "./scripts/formatDoc.js"
   },
