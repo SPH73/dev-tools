@@ -13,10 +13,21 @@ Each project should demonstrate the same repo-level standard:
 
 ## Portfolio progress
 
-| Project                                                              | Type              | Current stage                    | Status | Last update | Public proof                                                                                                   |
-| -------------------------------------------------------------------- | ----------------- | -------------------------------- | ------ | ----------- | -------------------------------------------------------------------------------------------------------------- |
-| [`Table-Formatter`](./Table-Formatter)                               | CLI tool          | Stable v1 + maintenance          | Active | 2026-08-26  | [`Table-Formatter/docs/references/project-overview.md`](./Table-Formatter/docs/references/project-overview.md) |
-| [`Agent-Planning-Toolkit-Starter`](./Agent-Planning-Toolkit-Starter) | Toolkit/framework | Public starter + evidence system | Active | 2026-08-26  | [`Agent-Planning-Toolkit-Starter/evidence/`](./Agent-Planning-Toolkit-Starter/evidence/)                       |
+### `Table-Formatter`
+
+- Type: CLI tool
+- Current stage: Stable v1 + CI hardening
+- Status: Active
+- Last update: 2026-08-26
+- Public proof: [`Table-Formatter/docs/references/project-overview.md`](./Table-Formatter/docs/references/project-overview.md)
+
+### `Agent-Planning-Toolkit-Starter`
+
+- Type: Toolkit/framework
+- Current stage: Public starter + evidence + mission alignment
+- Status: Active
+- Last update: 2026-08-26
+- Public proof: [`Agent-Planning-Toolkit-Starter/evidence/`](./Agent-Planning-Toolkit-Starter/evidence/)
 
 ## Stage definitions
 
