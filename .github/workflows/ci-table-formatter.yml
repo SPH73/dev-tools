@@ -1,0 +1,29 @@
+name: CI - Table Formatter
+
+on:
+  push:
+    paths:
+      - "Table-Formatter/**"
+      - ".github/workflows/ci-table-formatter.yml"
+  pull_request:
+    paths:
+      - "Table-Formatter/**"
+      - ".github/workflows/ci-table-formatter.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Table-Formatter
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run tests
+        run: npm test

@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible problem in a dev-tools project
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project is affected?
+      options:
+        - Table-Formatter
+        - Agent-Planning-Toolkit-Starter
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened and what did you expect?
+      placeholder: Clear and concise issue summary.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide exact steps to reproduce.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime versions, and tool version.
+      placeholder: macOS 14, Node 20.12.0, table-formatter 1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: Paste relevant error output.
+      render: shell
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checks
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I removed secrets/private data from logs.
+          required: true

@@ -1,0 +1,49 @@
+name: Feature request
+description: Propose a new capability or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project should this feature target?
+      options:
+        - Table-Formatter
+        - Agent-Planning-Toolkit-Starter
+        - New project proposal
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+      placeholder: Describe the pain point first.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Describe the behaviour you want.
+      placeholder: Explain expected inputs, outputs, and constraints.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What have you already tried or considered?
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: How will we know this is complete?
+      placeholder: Concrete acceptance criteria.
+    validations:
+      required: true
