@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CICDPlanningIntakeV1",
+  "description": "Structured intake for CI/CD planning generation.",
+  "type": "object",
+  "required": [
+    "project_name",
+    "repo_url",
+    "planning_type",
+    "role_lens",
+    "cicd_expertise",
+    "infra_expertise",
+    "decision_authority",
+    "primary_optimization",
+    "risk_posture",
+    "compliance_requirements",
+    "team_size",
+    "release_cadence",
+    "current_deploy_target",
+    "branch_strategy",
+    "current_pain_points",
+    "required_checks",
+    "environments",
+    "rollback_expectation",
+    "timeline_weeks",
+    "budget_band",
+    "definition_of_done"
+  ],
+  "properties": {
+    "project_name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 80
+    },
+    "repo_url": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "planning_type": {
+      "type": "string",
+      "enum": ["ci_cd_pipeline", "release_process", "platform_foundation"]
+    },
+    "role_lens": {
+      "type": "string",
+      "enum": [
+        "founder_operator",
+        "tech_lead",
+        "platform_engineer",
+        "consultant",
+        "other"
+      ]
+    },
+    "cicd_expertise": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "infra_expertise": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "decision_authority": {
+      "type": "string",
+      "enum": ["full", "partial", "advisory_only"]
+    },
+    "primary_optimization": {
+      "type": "string",
+      "enum": [
+        "speed",
+        "reliability",
+        "security",
+        "cost",
+        "compliance",
+        "balanced"
+      ]
+    },
+    "risk_posture": {
+      "type": "string",
+      "enum": ["conservative", "balanced", "aggressive"]
+    },
+    "compliance_requirements": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "team_size": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500
+    },
+    "release_cadence": {
+      "type": "string",
+      "enum": ["daily", "weekly", "biweekly", "monthly", "irregular"]
+    },
+    "current_deploy_target": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "branch_strategy": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "current_pain_points": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 600
+    },
+    "required_checks": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "lint",
+          "test",
+          "typecheck",
+          "build",
+          "security_scan",
+          "dependency_audit",
+          "artifact_sign",
+          "sbom",
+          "deploy_smoke"
+        ]
+      }
+    },
+    "environments": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["dev", "staging", "prod", "ephemeral_preview"]
+      }
+    },
+    "rollback_expectation": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 240
+    },
+    "timeline_weeks": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 52
+    },
+    "budget_band": {
+      "type": "string",
+      "enum": ["none", "low", "medium", "high", "enterprise"]
+    },
+    "definition_of_done": {
+      "type": "string",
+      "minLength": 15,
+      "maxLength": 700
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 1200
+    }
+  },
+  "additionalProperties": false
+}

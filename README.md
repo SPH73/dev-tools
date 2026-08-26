@@ -9,6 +9,7 @@ A growing collection of small, focused CLI tools built for real-world developer 
 | Tool | Description | Install |
 | ---- | ----------- | ------- |
 | [table-formatter](./Table-Formatter) | Convert Markdown tables into A4-safe, fixed-width ASCII tables | `cd Table-Formatter && npm link` |
+| [agent-planning-toolkit-starter](./Agent-Planning-Toolkit-Starter) | Schema-first planning toolkit for AI-assisted delivery with gated output contracts | `Open docs and copy templates` |
 
 ---
 
