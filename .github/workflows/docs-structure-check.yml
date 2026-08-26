@@ -2,6 +2,7 @@ name: Docs and Structure Check
 
 on:
   push:
+    branches: ["Main"]
     paths:
       - "README.md"
       - "REPO-STRUCTURE.md"
@@ -13,6 +14,11 @@ on:
       - "REPO-STRUCTURE.md"
       - "Agent-Planning-Toolkit-Starter/**"
       - ".github/workflows/docs-structure-check.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: docs-structure-check-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   verify:
@@ -64,3 +70,13 @@ jobs:
           rg "AI-COLLABORATION\.md" README.md
           rg "provenance/" README.md
           rg "docs/publish-in-dev-tools\.md" Agent-Planning-Toolkit-Starter/README.md
+
+      - name: Validate JSON schema files
+        run: |
+          set -euo pipefail
+          node -e "JSON.parse(require('node:fs').readFileSync('Agent-Planning-Toolkit-Starter/toolkit/intake.schema.json','utf8'))"
+
+      - name: Validate sample intake header
+        run: |
+          set -euo pipefail
+          rg "^project_name,repo_url,planning_type,role_lens,cicd_expertise,infra_expertise,decision_authority,primary_optimization,risk_posture,compliance_requirements,team_size,release_cadence,current_deploy_target,branch_strategy,current_pain_points,required_checks,environments,rollback_expectation,timeline_weeks,budget_band,definition_of_done,notes$" Agent-Planning-Toolkit-Starter/examples/sample-intake.csv
