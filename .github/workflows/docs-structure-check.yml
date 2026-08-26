@@ -26,6 +26,7 @@ jobs:
           set -euo pipefail
           test -f README.md
           test -f REPO-STRUCTURE.md
+          test -f PROJECT-OVERVIEW.md
           test -f AI-COLLABORATION.md
           test -f CHANGELOG.md
           test -f RELEASE-CHECKLIST.md
@@ -58,6 +59,7 @@ jobs:
         run: |
           set -euo pipefail
           rg "REPO-STRUCTURE\.md" README.md
+          rg "PROJECT-OVERVIEW\.md" README.md
           rg "\.github/SECURITY\.md" README.md
           rg "AI-COLLABORATION\.md" README.md
           rg "provenance/" README.md

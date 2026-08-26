@@ -39,6 +39,7 @@ For starter kits, use the docs and templates directly from their folder.
 ## Governance
 
 - Structure contract: [`REPO-STRUCTURE.md`](./REPO-STRUCTURE.md)
+- Portfolio progress board: [`PROJECT-OVERVIEW.md`](./PROJECT-OVERVIEW.md)
 - Security policy: [`.github/SECURITY.md`](./.github/SECURITY.md)
 - Contribution flow: use the issue and PR templates in `.github/`
 - Ownership rules: [`.github/CODEOWNERS`](./.github/CODEOWNERS)
