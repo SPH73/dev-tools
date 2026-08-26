@@ -19,6 +19,7 @@ This folder defines the audience strategy for campaign work without exposing pri
 - `campaigns/non-coding-founders-30-day-campaign.md`
 - `campaigns/non-coding-founders-linkedin-assets.md`
 - `campaigns/campaign-iteration-log-template.md`
+- `campaigns/4-week-content-calendar.md`
 
 ## Working rule
 
