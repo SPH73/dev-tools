@@ -1,38 +1,38 @@
 # Dev Tools
 
-A growing collection of small, focused CLI tools built for real-world developer workflows. Each tool is zero-dependency, framework-agnostic, and designed to work reliably across projects.
+A growing collection of small, focused developer tools and starter frameworks built for real-world workflows.
 
 ---
 
 ## Tools
 
-| Tool | Description | Install |
-| ---- | ----------- | ------- |
+| Tool | Description | Quick start |
+| ---- | ----------- | ----------- |
 | [table-formatter](./Table-Formatter) | Convert Markdown tables into A4-safe, fixed-width ASCII tables | `cd Table-Formatter && npm link` |
-| [agent-planning-toolkit-starter](./Agent-Planning-Toolkit-Starter) | Schema-first planning toolkit for AI-assisted delivery with gated output contracts | `Open docs and copy templates` |
+| [agent-planning-toolkit-starter](./Agent-Planning-Toolkit-Starter) | Schema-first planning toolkit for AI-assisted delivery with gated output contracts | Open `README.md`, then start with `examples/sample-intake.csv` |
 
 ---
 
 ## Philosophy
 
-- Zero external dependencies
-- Deterministic, predictable output
-- Plain text and CLI-first
-- Each tool is self-contained with its own `package.json`, tests, and docs
+- Practical and implementation-oriented
+- Deterministic, predictable outputs
+- Plain text and docs-first ergonomics
+- Self-contained project folders with clear usage guides
 
 ---
 
 ## Usage
 
-Clone the repo, then `npm link` whichever tool you need:
+Clone the repo, then open the project folder you want to use:
 
 ```bash
 git clone git@github.com:SPH73/dev-tools.git
-cd dev-tools/Table-Formatter
-npm link
+cd dev-tools
 ```
 
-Each tool's own README has full usage instructions.
+For CLI tools, run install/link commands from that tool's folder.  
+For starter kits, use the docs and templates directly from their folder.
 
 ---
 

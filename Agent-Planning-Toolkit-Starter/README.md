@@ -31,7 +31,7 @@ Agent-Planning-Toolkit-Starter/
   playbooks/
     operator-playbook.md
   docs/
-    publish-to-github.md
+    publish-in-dev-tools.md
     first-public-announcement.md
 ```
 
@@ -43,6 +43,11 @@ Agent-Planning-Toolkit-Starter/
 4. Generate your prompt from `toolkit/prompt-template.txt`.
 5. Evaluate output against `toolkit/output-contract.md`.
 6. Apply gating and review flow from `playbooks/operator-playbook.md`.
+
+## Helpful docs
+
+- Publishing updates in this monorepo: `docs/publish-in-dev-tools.md`
+- First public launch copy: `docs/first-public-announcement.md`
 
 ## Gating discipline
 
