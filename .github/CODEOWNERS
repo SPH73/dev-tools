@@ -1,0 +1,10 @@
+# Default owner for all files
+* @SPH73
+
+# Project-specific ownership
+/Table-Formatter/ @SPH73
+/Agent-Planning-Toolkit-Starter/ @SPH73
+
+# Governance and automation
+/.github/ @SPH73
+/REPO-STRUCTURE.md @SPH73

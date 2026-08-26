@@ -1,0 +1,52 @@
+name: Docs and Structure Check
+
+on:
+  push:
+    paths:
+      - "README.md"
+      - "REPO-STRUCTURE.md"
+      - "Agent-Planning-Toolkit-Starter/**"
+      - ".github/workflows/docs-structure-check.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - "REPO-STRUCTURE.md"
+      - "Agent-Planning-Toolkit-Starter/**"
+      - ".github/workflows/docs-structure-check.yml"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required root files
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f REPO-STRUCTURE.md
+
+      - name: Verify toolkit required files
+        run: |
+          set -euo pipefail
+          test -f Agent-Planning-Toolkit-Starter/README.md
+          test -f Agent-Planning-Toolkit-Starter/CONTRIBUTING.md
+          test -f Agent-Planning-Toolkit-Starter/ROADMAP.md
+          test -f Agent-Planning-Toolkit-Starter/LICENSE
+          test -f Agent-Planning-Toolkit-Starter/toolkit/goal.md
+          test -f Agent-Planning-Toolkit-Starter/toolkit/spec.md
+          test -f Agent-Planning-Toolkit-Starter/toolkit/intake.schema.json
+          test -f Agent-Planning-Toolkit-Starter/toolkit/prompt-template.txt
+          test -f Agent-Planning-Toolkit-Starter/toolkit/output-contract.md
+          test -f Agent-Planning-Toolkit-Starter/examples/sample-intake.csv
+          test -f Agent-Planning-Toolkit-Starter/playbooks/operator-playbook.md
+          test -f Agent-Planning-Toolkit-Starter/docs/publish-in-dev-tools.md
+          test -f Agent-Planning-Toolkit-Starter/docs/first-public-announcement.md
+
+      - name: Verify key README references
+        run: |
+          set -euo pipefail
+          rg "REPO-STRUCTURE\.md" README.md
+          rg "\.github/SECURITY\.md" README.md
+          rg "docs/publish-in-dev-tools\.md" Agent-Planning-Toolkit-Starter/README.md

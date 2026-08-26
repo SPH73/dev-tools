@@ -41,6 +41,8 @@ For starter kits, use the docs and templates directly from their folder.
 - Structure contract: [`REPO-STRUCTURE.md`](./REPO-STRUCTURE.md)
 - Security policy: [`.github/SECURITY.md`](./.github/SECURITY.md)
 - Contribution flow: use the issue and PR templates in `.github/`
+- Ownership rules: [`.github/CODEOWNERS`](./.github/CODEOWNERS)
+- Dependency and Actions updates: [`.github/dependabot.yml`](./.github/dependabot.yml)
 
 ---
 

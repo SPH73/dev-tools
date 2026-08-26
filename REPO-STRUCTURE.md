@@ -39,6 +39,8 @@ Project-specific additions:
 - Use issue templates in `.github/ISSUE_TEMPLATE/`.
 - Use the PR template in `.github/pull_request_template.md`.
 - Follow security reporting guidance in `.github/SECURITY.md`.
+- Ownership and review routing are defined in `.github/CODEOWNERS`.
+- Dependency and GitHub Actions update hygiene is managed by `.github/dependabot.yml`.
 
 ## Scope Guard
 
