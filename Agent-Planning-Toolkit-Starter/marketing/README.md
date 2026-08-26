@@ -16,6 +16,9 @@ This folder defines the audience strategy for campaign work without exposing pri
 - `expert-role-campaign-strategist.md`
 - `model-selection-guide.md`
 - `agent-prompt-template.md`
+- `campaigns/non-coding-founders-30-day-campaign.md`
+- `campaigns/non-coding-founders-linkedin-assets.md`
+- `campaigns/campaign-iteration-log-template.md`
 
 ## Working rule
 

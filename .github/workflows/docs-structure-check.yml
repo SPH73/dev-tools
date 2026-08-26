@@ -60,6 +60,9 @@ jobs:
           test -f Agent-Planning-Toolkit-Starter/marketing/expert-role-campaign-strategist.md
           test -f Agent-Planning-Toolkit-Starter/marketing/model-selection-guide.md
           test -f Agent-Planning-Toolkit-Starter/marketing/agent-prompt-template.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/non-coding-founders-30-day-campaign.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/non-coding-founders-linkedin-assets.md
+          test -f Agent-Planning-Toolkit-Starter/marketing/campaigns/campaign-iteration-log-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/README.md
           test -f Agent-Planning-Toolkit-Starter/evidence/case-study-template.md
           test -f Agent-Planning-Toolkit-Starter/evidence/buyer-profile-non-coding-commercially-savvy-founders.md

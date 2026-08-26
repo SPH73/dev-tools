@@ -38,6 +38,10 @@ Agent-Planning-Toolkit-Starter/
     expert-role-campaign-strategist.md
     model-selection-guide.md
     agent-prompt-template.md
+    campaigns/
+      non-coding-founders-30-day-campaign.md
+      non-coding-founders-linkedin-assets.md
+      campaign-iteration-log-template.md
   evidence/
     README.md
     case-study-template.md
