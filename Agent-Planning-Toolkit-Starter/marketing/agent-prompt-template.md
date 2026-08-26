@@ -20,6 +20,7 @@ Constraints:
 - Do not reveal internal methods or private IP.
 - Use only outcome and evidence language.
 - Keep claims tied to available proof artefacts.
+- Use a standard scaffold first, then tailor and polish to this specific brief.
 
 Output requirements:
 1) Segment pain summary (3 bullets)

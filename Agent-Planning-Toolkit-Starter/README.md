@@ -18,6 +18,7 @@ This toolkit helps you run planning work with consistent inputs, explicit contra
 Agent-Planning-Toolkit-Starter/
   README.md
   MISSION.md
+  SCALING-PRINCIPLE.md
   LICENSE
   CONTRIBUTING.md
   ROADMAP.md
@@ -67,6 +68,7 @@ Agent-Planning-Toolkit-Starter/
 - First public launch copy: `docs/first-public-announcement.md`
 - Evidence capture loop: `evidence/README.md`
 - Mission statement: `MISSION.md`
+- Scaling principle: `SCALING-PRINCIPLE.md`
 - Campaign system: `marketing/README.md`
 
 ## Gating discipline

@@ -26,3 +26,9 @@ All campaign artefacts should stay outcome-first:
 
 - describe pains, desired outcomes, and trust signals,
 - avoid revealing internal methods, private IP, or sensitive client detail.
+
+Apply the scaling strategy in `../SCALING-PRINCIPLE.md`:
+
+- keep scaffold assets standard,
+- tailor campaign outputs to the brief,
+- polish for channel and segment context.

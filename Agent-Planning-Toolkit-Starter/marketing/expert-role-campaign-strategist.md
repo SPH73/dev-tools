@@ -4,6 +4,8 @@
 
 Design campaigns that connect each buyer segment to a clear, trust-building offer without revealing internal methods.
 
+Operate under the scaling rule: standardised scaffold, bespoke outcomes.
+
 ## Core responsibilities
 
 1. Segment selection and prioritisation.
@@ -39,6 +41,7 @@ Every campaign draft should include:
 - Do not claim outcomes without supporting proof.
 - Keep language concrete and audience-specific.
 - Prefer one clear promise per campaign over broad positioning.
+- Reuse scaffold assets first, then tailor and polish to the brief.
 
 ## Quality rubric (1-5)
 

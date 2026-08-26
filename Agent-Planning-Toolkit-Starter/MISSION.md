@@ -8,6 +8,7 @@ We help non-coding but commercially savvy founders turn strong ideas into execut
 - Practical sequencing over tool hype.
 - Faster decisions with lower execution risk.
 - Momentum that survives real-world constraints.
+- Standardised scaffold with bespoke outcomes.
 
 ## Expertise we demonstrate
 
