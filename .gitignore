@@ -3,3 +3,8 @@ output.txt
 *.log
 .DS_Store
 .vscode/
+
+# Agent working memory. Gitignored at creation, per the house pattern that darcsi-core and
+# benchvision follow. It points at the private tree, so it must never enter a public history.
+# Added 2026-08-27.
+CLAUDE.md
