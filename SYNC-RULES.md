@@ -55,6 +55,7 @@ Plaintext, tracked, and editable by hand. Naming what is permitted in public lea
 | Table-Formatter | a tool in this repository |
 | Agent-Planning-Toolkit-Starter | a toolkit in this repository |
 | check-identity.sh | the identity guard published in `pix-harness` |
+| Design Develop Host | her own trading name, published by her outside these repositories |
 
 **Seeded 2026-09-24 from what is already in the two public repositories, not from what might one day be wanted.** A name earns a row by having been published, never by looking harmless. A third party who has published the material themselves may be added on the same basis, citing where they published it.
 
