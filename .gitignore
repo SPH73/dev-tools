@@ -3,3 +3,6 @@ output.txt
 *.log
 .DS_Store
 .vscode/
+
+# Points at the private tree. Must never enter this public history.
+CLAUDE.md
