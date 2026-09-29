@@ -1,4 +1,4 @@
-# Portfolio Evidence Index
+# Evidence: what is in this repository
 
 This page maps capability claims to verifiable public artefacts in this repository.
 
@@ -57,35 +57,3 @@ Proof:
 Why it matters:
 
 - Reliability signals are visible and testable, not implied.
-
-## 5) "I can turn audience insights into campaign-ready systems."
-
-Proof:
-
-- Buyer profiles and user stories: `Agent-Planning-Toolkit-Starter/marketing/buyer-profiles.md`, `Agent-Planning-Toolkit-Starter/marketing/user-stories.md`
-- Campaign strategist framework: `Agent-Planning-Toolkit-Starter/marketing/expert-role-campaign-strategist.md`
-- Campaign-in-a-box assets: `Agent-Planning-Toolkit-Starter/marketing/campaigns/`
-
-Why it matters:
-
-- Converts strategy into reusable, delegable marketing execution.
-
-## 6) "I can scale delivery with template economics while staying bespoke."
-
-Proof:
-
-- Scaling strategy: `Agent-Planning-Toolkit-Starter/SCALING-PRINCIPLE.md`
-- Mission alignment: `Agent-Planning-Toolkit-Starter/MISSION.md`
-- Agent prompt constraints: `Agent-Planning-Toolkit-Starter/marketing/agent-prompt-template.md`
-
-Why it matters:
-
-- Supports fast turnaround and sustainable pricing without quality collapse.
-
-## Quick verification bundle (under 3 minutes)
-
-- `README.md`
-- `PROJECT-OVERVIEW.md`
-- `PORTFOLIO-EVIDENCE.md`
-- `releases/dev-tools-v0.4.0.md`
-- `.github/workflows/ci-table-formatter.yml`
