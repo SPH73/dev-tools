@@ -6,3 +6,6 @@ output.txt
 
 # Points at the private tree. Must never enter this public history.
 CLAUDE.md
+# The local identity denylist: real names, checked locally, never published,
+# hashed or otherwise. The tracked hashes carry the fictional example only.
+tools/identity-denylist-private.txt
