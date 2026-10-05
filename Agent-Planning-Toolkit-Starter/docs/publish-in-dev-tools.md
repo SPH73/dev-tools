@@ -1,9 +1,9 @@
 # Publish in `dev-tools` (Copy/Paste)
 
-Run these commands from the monorepo root:
+Run these commands from the root of your `dev-tools` clone:
 
 ```bash
-cd ~/work/Development/Projects/dev-tools
+cd path/to/dev-tools
 git status --short --branch
 git add README.md Agent-Planning-Toolkit-Starter
 git commit -m "feat: add agent planning toolkit starter"
