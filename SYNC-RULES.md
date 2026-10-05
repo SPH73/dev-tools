@@ -1,11 +1,19 @@
-# Sync Rules: `dev-tools` <-> `FF27/10-delta`
+# Sync Rules: `dev-tools` <-> the private substrate
 
 This document keeps public and private work cleanly separated.
 
 ## Source-of-truth boundary
 
-- Public source of truth: `Development/dev-tools` *(corrected 2026-09-24: the path `Development/Projects/dev-tools` recorded here was wrong; the repo is at `Development/dev-tools/`, verified on disk. `dev-tools/CLAUDE.md` still carries the old path and is NOT corrected here.)*
-- Private drafting and IP substrate: `FF27/10-delta`
+- Public source of truth: this repository.
+- Private drafting and IP substrate: a separate private repository outside this one.
+
+**The private repository is not named here, and that is deliberate.** This file is public, so naming a
+private path publishes the existence, codename and structure of private work for no benefit to any
+reader of this repo. The actual mapping lives in this repo's local-only `CLAUDE.md`.
+
+*Genericised 2026-10-05. Earlier versions named the private path, and those names remain in this repo's
+history: a public-from-creation repo has no private original to sanitise, and nothing published here
+can be withdrawn later. Recorded so the cost is legible rather than repeated.*
 
 ## What belongs where
 
@@ -15,7 +23,7 @@ This document keeps public and private work cleanly separated.
 - Governance, release, provenance, and evidence artefacts.
 - Outcome-focused case studies and post drafts that reveal no private method or client-sensitive detail.
 
-### `FF27/10-delta` (private)
+### The private substrate
 
 - Raw ideation and exploratory drafts.
 - Method-development notes and internal planning iterations.
@@ -23,7 +31,7 @@ This document keeps public and private work cleanly separated.
 
 ## Promotion rule (private -> public)
 
-Only promote artefacts from `FF27/10-delta` to `dev-tools` when all checks pass:
+Only promote artefacts from the private substrate into this repo when all checks pass:
 
 1. Share-safe content (no private IP/client identifiers/secrets).
 2. Outcome-first wording (no method exposure).
@@ -33,7 +41,7 @@ Only promote artefacts from `FF27/10-delta` to `dev-tools` when all checks pass:
 
 > **Which denylist check 1 is run against, and it is not the one published beside the guard.** The identity guard ships with an EXAMPLE denylist, so that a reader can verify the pattern rather than the contents. **A pass against the example list proves nothing about a real identifier**, and it reports `clean` exactly as a real pass does. A promotion sweep runs the guard against the real hashed denylist, which is held privately and is never published. **If you cannot say which list your run used, the check has not been performed.** The real list's location is recorded privately, in this repository's gitignored `CLAUDE.md`. *Added 2026-09-24.*
 
-> **Why check 5 is written here, and the date it was missing.** This rule was agreed 2026-08-27 and recorded in three documents — `~/work/CLAUDE.md`, `REPOS.md`, and `dev-tools/CLAUDE.md` §1 — each of which names *this file* as its single home and states that it owns five checks. **It was never written into this file.** Found 2026-09-24 while standing up `pix-harness`, which carried the statement correctly by copying the example rather than by reading the rule. **Three pointers resolving to an empty home is a rule that looks enforced and is not.** Written in on Pix's ruling, 2026-09-24.
+> **Why check 5 is written here, and the date it was missing.** This rule was agreed 2026-08-27 and recorded in three private documents, each of which names *this file* as its single home and states that it owns five checks. **It was never written into this file.** Found 2026-09-24 while standing up `pix-harness`, which carried the statement correctly by copying the example rather than by reading the rule. **Three pointers resolving to an empty home is a rule that looks enforced and is not.** Written in on Pix's ruling, 2026-09-24.
 
 ## Names: the allow list and the deny list
 
@@ -80,6 +88,6 @@ Use `cursor-workbench/` as the public-facing staging area for share-safe imports
 - Public toolkit home:
   - `dev-tools/Agent-Planning-Toolkit-Starter/`
 - Private draft reservoir:
-  - `FF27/10-delta/cursor/agents/`
+  - Recorded in the local-only `CLAUDE.md`, not here.
 
 If in doubt, keep it private first and promote later.
